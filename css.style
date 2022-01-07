@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.body {
+    margin: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    margin-top: 10px;
+}
+
+/* common  */
+.orange-text {
+    color: orange
+}
+.side-border {
+    border-left: 4px solid red;
+    padding-left: 25px;
+}
+.primary-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.flex40 {
+    flex-basis: 40%;
+    padding: 5%;
+}
+.flex60 {
+    flex-basis: 60%;
+    padding: 5%;
+}
+.flex50 {
+    flex-basis: 50%;
+    padding: 5%;
+}
+
+
+/* banner section */
+.banner h1 {
+    margin-top: 60px;
+    font-size: 52px;
+}
+.banner {
+    display: flex
+}
+.banner .half-side {
+    flex-basis: 50%;
+}
+.banner .half-side img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* mission section  */
+.mission-section h1 {
+    text-align: center;
+    font-size: 32px;
+}
+.mission-section .missions {
+    display: flex;
+}
+.mission-section .missions .mission {
+    margin: 25px;
+    border-radius: 15px;
+    padding: 15px 25px;
+}
+.mission-section .missions .mission img {
+    width: 120px;
+}
+
+/* develop  */
+.develop {
+    display: flex;
+}
+.develop h2 {
+    font-size: 30px;
+}
+.develop .flex40 img {
+    width: 70%;
+    display: block;
+}
+
+/* application  */
+.application {
+    display: flex;
+}
+.application h2 {
+    font-size: 30px;
+}
+.application .flex50 img {
+    width: 40%;
+    display: block;
+}
+
+/* footer  */
+.footer {
+    padding: 40px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+.footer h2 {
+    font-size: 32px;
+    font-family: 'Moon Dance', cursive;
+}
